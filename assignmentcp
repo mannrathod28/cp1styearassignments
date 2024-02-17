@@ -11,16 +11,17 @@ qn 2
 n = 5 
 for i in range(1, n+1):
   s = "" 
-  for j in range(65, 65+i) 
+  for j in range(65, 65+i) :
     s += chr(j)  
   print(s) 
 qn 3
-n = 5 
-for i in range(n, 0, -1):
-  s = "" 
-  for j in range(69-i, 69):  (E-A) to 69 (E)
-    s += chr(j) 
-  print(s * (i+3)) 
+n = 10 
+for i in range(ord('A'), ord('Z') + 1):
+    # Get the character 
+    char = chr(i)
+    print(char * n)
+    n -= 1
+
 qn 4
 n = 5 # number of rows
 for i in range(n, 0, -1):
